@@ -1,0 +1,155 @@
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+}
+
+.nav, .nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav ul li {
+    padding-right: 10px;
+    list-style-type: none;
+    font-size: 13px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+}
+
+.footer-top-box {
+    display: flex;
+}
+
+.footer-bottom-box, .footer-bottom-box ul {
+    display: flex;
+}
+
+.user-profile-image {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+.content img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.search-box {
+    border-radius: 20px;
+    height: 40px;
+    width: 100%;
+    margin: 25px;
+    border: solid 1px rgba(206, 206, 206, 0.847);
+    display: flex;
+    flex-direction: row;
+}
+
+.search-box .fas {
+    color: rgba(0,0,0,.24);
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    padding-left: 15px;
+}
+
+.search-box img {
+    height: 22px;
+    margin: auto;
+    padding-right: 15px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    margin: auto;
+    height: 38px;
+    width: 90%
+}
+
+.search-box input:focus {
+    outline: none;
+}
+
+.search-box:hover {
+    box-shadow: 0px 0px 6px 2px rgba(206,206,206,0.84);
+}
+
+.button-box button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 16px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 36px;
+    border-radius: 2px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+}
+
+.offered-in-text-box p, .offered-in-text-box p a {
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: rgba(0,0,0,.54);
+}
+
+.footer-top-box {
+    width: 100%;
+    border-bottom: solid 0.5px rgba(0,0,0,.14);
+    font-size: 15px;
+    padding: 15px 30px;
+}
+
+.footer-bottom-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-bottom-box li{
+    list-style-type: none;
+}
+
+#footer-links-left ul{
+    justify-content: flex-start;
+    min-width: 30%;
+    order: 1;
+}
+
+#footer-links-left li {
+    padding: 15px;
+}
+
+#footer-links-right ul{
+    justify-content: flex-end;
+    min-width: 30%;
+    order: 3;
+}
+
+#footer-links-right li {
+    padding: 15px;
+}
+
+
